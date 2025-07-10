@@ -1,0 +1,14 @@
+Installation command: 
+npm init playwright@latest
+Intall browsers
+npx playwright install
+
+run tests
+
+npx playwright test
+npx playwright test --headed  
+To open last HTML report run:
+
+  npx playwright show-report
+
+  test.only ( to run just single test)
